@@ -23,7 +23,7 @@ def get_requirements():
 
 
 setup(
-    name="pyatv",
+    name="pyatv_patched",
     version=__version__,
     license="MIT",
     url="https://pyatv.dev",
