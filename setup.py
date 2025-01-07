@@ -9,7 +9,7 @@ GITHUB_URL = "https://github.com/postlund/pyatv"
 
 # Read in version without importing pyatv
 # http://stackoverflow.com/questions/6357361/alternative-to-execfile-in-python-3
-exec(compile(open("pyatv/const.py", "rb").read(), "pyatv/const.py", "exec"))
+exec(compile(open("pyatv_patched/const.py", "rb").read(), "pyatv_patched/const.py", "exec"))
 
 
 def read(fname):
