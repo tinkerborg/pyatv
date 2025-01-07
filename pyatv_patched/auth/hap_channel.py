@@ -5,7 +5,7 @@ import asyncio
 import logging
 from typing import Callable, Optional, Tuple, cast
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.auth.hap_pairing import PairVerifyProcedure
 from pyatv_patched.auth.hap_session import HAPSession
 from pyatv_patched.support import log_binary

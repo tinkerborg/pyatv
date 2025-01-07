@@ -10,7 +10,7 @@ from typing import Any, Dict, Generator, List, Mapping, Optional, Set, Tuple, ca
 
 from aiohttp import ClientError, ClientSession
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.auth.hap_srp import SRPAuthHandler
 from pyatv_patched.const import (
     DeviceState,

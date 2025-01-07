@@ -12,7 +12,7 @@ from time import monotonic, monotonic_ns
 from typing import Any, Dict, Mapping, NamedTuple, Optional, Tuple, cast
 import weakref
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.protocols.airplay.utils import pct_to_dbfs
 from pyatv_patched.protocols.raop import timing
 from pyatv_patched.protocols.raop.audio_source import AudioSource

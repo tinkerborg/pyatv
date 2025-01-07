@@ -31,7 +31,7 @@ artwork = await relayer.relay("artwork")(width=640)
 from itertools import chain
 from typing import Dict, Generic, List, Optional, Sequence, Type, TypeVar
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.const import Protocol
 
 T = TypeVar("T")

@@ -11,7 +11,7 @@ from typing import List, Optional, Set, Union
 import aiohttp
 from zeroconf.asyncio import AsyncZeroconf
 
-from pyatv import exceptions, interface
+from pyatv_patched import exceptions, interface
 from pyatv_patched.const import Protocol
 from pyatv_patched.core import CoreStateDispatcher, create_core
 from pyatv_patched.core.facade import FacadeAppleTV

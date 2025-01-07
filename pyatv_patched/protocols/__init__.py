@@ -2,7 +2,7 @@
 
 from typing import Any, Awaitable, Callable, Dict, Generator, Mapping, NamedTuple
 
-from pyatv import interface
+from pyatv_patched import interface
 from pyatv_patched.const import Protocol
 from pyatv_patched.core import Core, MutableService, SetupData
 from pyatv_patched.core.scan import ScanMethod

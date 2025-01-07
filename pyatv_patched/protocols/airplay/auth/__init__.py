@@ -3,7 +3,7 @@
 import logging
 from typing import Tuple
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.auth.hap_pairing import (
     NO_CREDENTIALS,
     TRANSIENT_CREDENTIALS,

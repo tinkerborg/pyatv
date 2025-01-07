@@ -11,7 +11,7 @@ from random import randint
 from typing import Any, Dict, List, Optional, Set, cast
 from uuid import uuid4
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.auth.hap_channel import setup_channel
 from pyatv_patched.auth.hap_pairing import HapCredentials, PairVerifyProcedure
 from pyatv_patched.core.protocol import heartbeater

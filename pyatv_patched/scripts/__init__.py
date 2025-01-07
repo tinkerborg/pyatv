@@ -6,7 +6,7 @@ from ipaddress import ip_address
 import json
 import logging
 
-from pyatv import const
+from pyatv_patched import const
 from pyatv_patched.interface import Storage
 from pyatv_patched.storage.file_storage import FileStorage
 from pyatv_patched.storage.memory_storage import MemoryStorage

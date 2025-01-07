@@ -4,7 +4,7 @@ from abc import abstractmethod
 import asyncio
 import logging
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.protocols.mrp import protobuf
 from pyatv_patched.support import chacha20, log_binary, log_protobuf
 from pyatv_patched.support.net import tcp_keepalive

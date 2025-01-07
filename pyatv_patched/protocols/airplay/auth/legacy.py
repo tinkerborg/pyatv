@@ -5,7 +5,7 @@ import logging
 import plistlib
 from typing import Dict, Optional, Tuple
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.auth.hap_pairing import (
     HapCredentials,
     PairSetupProcedure,

@@ -5,7 +5,7 @@ import logging
 import re
 from typing import Optional
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.const import DeviceState, MediaType
 from pyatv_patched.protocols.dmap import parser
 from pyatv_patched.support import log_binary

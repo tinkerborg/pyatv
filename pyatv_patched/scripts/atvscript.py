@@ -10,7 +10,7 @@ import sys
 import traceback
 from typing import List, Optional
 
-from pyatv import connect, const, scan
+from pyatv_patched import connect, const, scan
 from pyatv_patched.const import FeatureName, FeatureState, Protocol
 from pyatv_patched.interface import (
     App,

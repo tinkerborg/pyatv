@@ -6,7 +6,7 @@ import plistlib
 from typing import List, Mapping, Optional, Tuple
 from uuid import uuid4
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.protocols.airplay.auth import pair_verify
 from pyatv_patched.protocols.raop.protocols import StreamContext, StreamProtocol
 from pyatv_patched.support.rtsp import RtspSession

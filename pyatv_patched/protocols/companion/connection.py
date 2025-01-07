@@ -7,7 +7,7 @@ from enum import Enum
 import logging
 from typing import Optional
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.support import chacha20, log_binary
 from pyatv_patched.support.state_producer import StateProducer
 

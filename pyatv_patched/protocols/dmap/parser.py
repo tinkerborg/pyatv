@@ -10,7 +10,7 @@ a four byte big endian unsigned int as length and the data as data. So:
 
 from collections import namedtuple
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 
 from .tags import read_bplist, read_str, read_uint
 

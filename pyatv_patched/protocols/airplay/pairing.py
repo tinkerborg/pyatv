@@ -3,7 +3,7 @@
 import logging
 from typing import Optional
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.auth.hap_pairing import PairSetupProcedure
 from pyatv_patched.const import Protocol
 from pyatv_patched.core import Core

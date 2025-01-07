@@ -7,7 +7,7 @@ from random import randint
 import time
 from typing import Any, Dict, List, Mapping, Optional, cast
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.auth.hap_pairing import parse_credentials
 from pyatv_patched.auth.hap_srp import SRPAuthHandler
 from pyatv_patched.const import InputAction, TouchAction

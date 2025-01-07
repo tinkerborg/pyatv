@@ -10,7 +10,7 @@ from typing import List, Optional
 
 from ifaddr import get_adapters
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 
 _LOGGER = logging.getLogger(__name__)
 

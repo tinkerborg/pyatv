@@ -21,7 +21,7 @@ from cryptography.hazmat.primitives.asymmetric.x25519 import (
 from cryptography.hazmat.primitives.kdf.hkdf import HKDF
 from srptools import SRPClientSession, SRPContext, constants
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.auth.hap_pairing import HapCredentials
 from pyatv_patched.auth.hap_tlv8 import TlvValue, read_tlv, write_tlv
 from pyatv_patched.support import chacha20, log_binary, opack

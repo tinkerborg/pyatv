@@ -11,7 +11,7 @@ import warnings
 from google.protobuf.text_format import MessageToString
 
 import pyatv
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.support.pydantic_compat import BaseModel
 
 _PROTOBUF_LINE_LENGTH = 150

@@ -3,7 +3,7 @@
 import logging
 from typing import Optional
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.protocols.airplay.ap2_session import AP2Session
 from pyatv_patched.protocols.airplay.channels import DataStreamChannel, DataStreamListener
 from pyatv_patched.protocols.mrp import protobuf

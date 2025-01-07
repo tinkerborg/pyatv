@@ -28,7 +28,7 @@ from typing import (
     Union,
 )
 
-from pyatv import const, convert, exceptions
+from pyatv_patched import const, convert, exceptions
 from pyatv_patched.const import (
     DeviceModel,
     FeatureName,

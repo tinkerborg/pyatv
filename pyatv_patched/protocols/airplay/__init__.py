@@ -5,7 +5,7 @@ import logging
 import os
 from typing import Any, Dict, Generator, Mapping, Optional, Set
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.auth.hap_pairing import AuthenticationType, HapCredentials, parse_credentials
 from pyatv_patched.const import DeviceModel, FeatureName, OperatingSystem, Protocol
 from pyatv_patched.core import Core, MutableService, SetupData, mdns

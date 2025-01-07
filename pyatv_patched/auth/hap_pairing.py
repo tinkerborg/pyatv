@@ -5,7 +5,7 @@ import binascii
 from enum import Enum, auto
 from typing import Optional, Tuple
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 
 # pylint: disable=invalid-name
 

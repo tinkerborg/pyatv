@@ -4,7 +4,7 @@ import binascii
 from typing import List
 from uuid import uuid4
 
-from pyatv import const
+from pyatv_patched import const
 from pyatv_patched.auth import hap_tlv8
 from pyatv_patched.protocols.mrp import protobuf
 from pyatv_patched.settings import InfoSettings

@@ -4,7 +4,7 @@ import asyncio
 from contextlib import asynccontextmanager
 import logging
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.protocols.raop.protocols import StreamProtocol, TimingServer
 from pyatv_patched.support.http import decode_bplist_from_body
 from pyatv_patched.support.rtsp import RtspSession

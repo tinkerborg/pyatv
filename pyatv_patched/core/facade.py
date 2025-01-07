@@ -17,7 +17,7 @@ import logging
 from queue import Queue
 from typing import Any, Callable, Dict, List, Optional, Set, Tuple, Union, cast
 
-from pyatv import const, exceptions, interface
+from pyatv_patched import const, exceptions, interface
 from pyatv_patched.const import FeatureName, FeatureState, InputAction, Protocol, TouchAction
 from pyatv_patched.core import CoreStateDispatcher, SetupData, StateMessage, UpdatedState
 from pyatv_patched.core.relayer import Relayer

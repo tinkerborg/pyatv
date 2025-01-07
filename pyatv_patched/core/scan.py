@@ -33,7 +33,7 @@ from zeroconf import (
 from zeroconf.asyncio import AsyncServiceInfo, AsyncZeroconf
 from zeroconf.const import _CLASS_IN, _FLAGS_QR_QUERY, _TYPE_PTR
 
-from pyatv import conf
+from pyatv_patched import conf
 from pyatv_patched.const import DeviceModel, Protocol
 from pyatv_patched.core import MutableService, mdns
 from pyatv_patched.helpers import get_unique_id

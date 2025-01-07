@@ -9,7 +9,7 @@ import uuid
 
 import async_timeout
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.auth.hap_pairing import parse_credentials
 from pyatv_patched.auth.hap_srp import SRPAuthHandler
 from pyatv_patched.core.protocol import MessageDispatcher, heartbeater

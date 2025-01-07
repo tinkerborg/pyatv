@@ -11,7 +11,7 @@ import traceback
 
 from tabulate import tabulate
 
-from pyatv import connect, const, exceptions, interface, pair, scan
+from pyatv_patched import connect, const, exceptions, interface, pair, scan
 from pyatv_patched.conf import AppleTV, ManualService
 from pyatv_patched.const import (
     FeatureName,

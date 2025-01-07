@@ -7,7 +7,7 @@ import weakref
 
 from aiohttp.client_exceptions import ClientError
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.const import (
     DeviceModel,
     DeviceState,

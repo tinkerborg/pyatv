@@ -6,7 +6,7 @@ import plistlib
 from typing import Optional, Tuple
 from uuid import uuid4
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 from pyatv_patched.auth.hap_channel import setup_channel
 from pyatv_patched.auth.hap_pairing import PairVerifyProcedure
 from pyatv_patched.protocols.airplay.auth import verify_connection

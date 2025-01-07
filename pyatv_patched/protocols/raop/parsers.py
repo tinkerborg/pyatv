@@ -3,7 +3,7 @@
 from enum import IntFlag
 from typing import Mapping, Tuple
 
-from pyatv import exceptions
+from pyatv_patched import exceptions
 
 DEFAULT_SAMPLE_RATE = 44100
 DEFAULT_SAMPLE_SIZE = 16  # bits

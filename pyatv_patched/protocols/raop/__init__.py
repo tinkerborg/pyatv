@@ -5,7 +5,7 @@ import io
 import logging
 from typing import Any, Dict, Generator, Mapping, Optional, Set, Tuple, Union, cast
 
-from pyatv import const, exceptions
+from pyatv_patched import const, exceptions
 from pyatv_patched.const import (
     DeviceModel,
     FeatureName,

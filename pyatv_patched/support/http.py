@@ -25,7 +25,7 @@ from aiohttp.web import middleware
 import async_timeout
 from requests.structures import CaseInsensitiveDict
 
-from pyatv import const, exceptions
+from pyatv_patched import const, exceptions
 from pyatv_patched.support import log_binary
 from pyatv_patched.support.net import unused_port
 
